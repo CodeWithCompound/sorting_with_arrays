@@ -1,25 +1,29 @@
 unsorted_numbers = [34, 1, 23, 4, 3, 78, 111, 88, 12, 56]
-
-def slice(unsorted_numbers):
-    sliced_a = unsorted_numbers[:len(unsorted_numbers)//2]
-    sliced_b = unsorted_numbers[len(unsorted_numbers)//2:]
-    return sliced_a, sliced_b
+unsorted_numbers_for_display = [34, 1, 23, 4, 3, 78, 111, 88, 12, 56]
 
 def sort(numbers):
-    return sorted(numbers)
+    while True:
+        swapped = False
+        # go through each index except the last (cause yk, python dose not like that)
+        for i in range(len(numbers) - 1):
+            a = numbers[i]
+            b = numbers[i + 1]
+            if a > b:
+                numbers[i], numbers[i + 1] = b, a
+                swapped = True
+        # if no swaps happened we have the list sorted
+        if not swapped:
+            break
+    return numbers
+
+
 # note
-length = len(unsorted_numbers)
-sliced_a, sliced_b = slice(unsorted_numbers)
+result = sort(unsorted_numbers)
 
 print("Sorting Numbers Script")
 print("=======================")
-print("Unsorted Numbers:", unsorted_numbers)
+print("Unsorted Numbers:", unsorted_numbers_for_display)
 print("========================")
-print("Sliced A:", sliced_a)
-print("Sliced B:", sliced_b)    
+print("Sorted Numbers:", result)
 print("========================")
-print("Sorted Numbers:", sort(sliced_a + sliced_b))
-print("========================")
-print("Using: Built-in sorted() function")
-
-# note: Simple sorting using built-in sorted function. Tho i planught of implementing my own sorting algorithm later
+print("Using: bubble sort!")
