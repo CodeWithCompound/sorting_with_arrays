@@ -1,6 +1,7 @@
 # Sorting with Arrays
 
 ![screenshot](preview_sorting_array.png)
+
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 
