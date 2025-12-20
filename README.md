@@ -12,22 +12,21 @@ yea this is a little sorting script for a array that is getting sorted via bubbl
 
 ## Tech Stack
 
-- Language: Rust
-- Framework: Macroquad
-- Libraries: Argon2 & rand
+- Language: Python
+- Framework: none
+- Libraries: none
 
 ---
 
 ## Features
 
 ![done](https://img.shields.io/badge/status-done-brightgreen)
--  you can create your password
-- the password gets hashed by argon creating a long string
-- you can try to reenter your password which will show you if you entered it correctly or not
+-  a array named "unsorted_numbers" that let's you define your data
+-  the sorting algorithm itself
+-  clean print at the end showing before and after the sort
   
 ![wip](https://img.shields.io/badge/status-WIP-blue)
-- i'm not really sure what to add, this was more of a shower thought where i went "wouldn't it be nice to know how to actually make something that has real world usage???"
-- likely gona make it prettier
+- i think there is nothing of value i could add for this little mini project, pretty sure i'll leave it at the current state 
 
 ---
 
@@ -35,7 +34,7 @@ yea this is a little sorting script for a array that is getting sorted via bubbl
 
 ```bash
 # clone the repo
-git clone https://github.com/CodeWithCompound/password_vault.git
+git clone https://github.com/CodeWithCompound/sorting_with_arrays.git
 cd password_vault
 
 
