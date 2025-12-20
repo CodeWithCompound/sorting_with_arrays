@@ -35,6 +35,6 @@ yea this is a little sorting script for a array that is getting sorted via bubbl
 ```bash
 # clone the repo
 git clone https://github.com/CodeWithCompound/sorting_with_arrays.git
-cd password_vault
+cd sorting_with_arrays
 
 
