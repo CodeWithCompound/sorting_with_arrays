@@ -1,5 +1,5 @@
 unsorted_numbers = [34, 1, 23, 4, 3, 78, 111, 88, 12, 56]
-unsorted_numbers_for_display = [34, 1, 23, 4, 3, 78, 111, 88, 12, 56]
+unsorted_numbers_for_display  = list(unsorted_numbers)
 
 def sort(numbers):
     while True:
