@@ -26,7 +26,8 @@ yea this is a little sorting script for a array that is getting sorted via bubbl
 -  clean print at the end showing before and after the sort
   
 ![wip](https://img.shields.io/badge/status-WIP-blue)
-- i think there is nothing of value i could add for this little mini project, pretty sure i'll leave it at the current state 
+- i think there is nothing of value i could add for this little mini project, pretty sure i'll leave it at the current state
+- actually, i am considering adding the option to choose from different kinds of algos
 
 ---
 
