@@ -22,7 +22,7 @@ yea this is a little sorting script for a array that is getting sorted via bubbl
 
 ![done](https://img.shields.io/badge/status-done-brightgreen)
 -  a array named "unsorted_numbers" that let's you define your data
--  the sorting algorithm itself
+-  the sorting algorithm itself (bubble sort)
 -  clean print at the end showing before and after the sort
   
 ![wip](https://img.shields.io/badge/status-WIP-blue)
